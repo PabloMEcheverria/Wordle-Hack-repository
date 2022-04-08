@@ -62,14 +62,14 @@ h1 {
     text-transform: uppercase;
     width: 100%;
 }
+.letterInput:disabled {
+    background-color: rgb(255, 255, 255);
+}
 .letterInput:focus {
     border-radius: 0%;
     cursor: context-menu;
     outline: none;
 }
-/*.letterInput:disabled {
-    background-color: inherit;
-}*/
 .green {
     background-color: rgb(106, 170, 100);
     border: 0px;
