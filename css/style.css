@@ -62,9 +62,9 @@ h1 {
     text-transform: uppercase;
     width: 100%;
 }
-/*.letterInput:disabled {
+.emptyInput:disabled {
     background-color: rgb(255, 255, 255);
-}*/
+}
 .letterInput:focus {
     border-radius: 0%;
     cursor: context-menu;

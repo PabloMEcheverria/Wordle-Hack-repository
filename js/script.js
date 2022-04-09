@@ -350,6 +350,9 @@ function changeToNextElement(evt){
                 evt.preventDefault();
                 return currentElement;
             } else {
+                if (currentElement.value.length > 0){
+                    currentElement.classList.remove("emptyInput");
+                }
                 currentElement.disabled = true;
                 currentElement = inputCollection[i + 1];
                 currentElement.disabled = false;
